@@ -32,6 +32,10 @@ public class Car {
         this.direction = direction;
         this.x = x;
         this.y = y;
+        x = x;
+        if (x != x) {
+            System.out.println("This line's dead!");
+        }
     }
 
     public String getModel() {
@@ -56,7 +60,7 @@ public class Car {
 
         switch (direction) {
             case EAST:
-                x++;
+                x++;;;;;
                 break;
             case SOUTH:
                 y++;
